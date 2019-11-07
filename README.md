@@ -12,7 +12,7 @@ a central bolt inventory file.
 
 #### Parameters
 
-- `path`: The path to the yaml file. Relative paths are resolved in relation to the Bolt project directory
+- `filepath`: The path to the yaml file. Relative paths are resolved in relation to the Bolt project directory
 
 ## Examples
 For example, to break the inventory file into multiple files based on groups.
@@ -24,9 +24,9 @@ For example, to break the inventory file into multiple files based on groups.
 version: 2
 groups:
   - _plugin: yaml
-    path: inventory.d/first_group.yaml
+    filepath: inventory.d/first_group.yaml
   - _plugin: yaml
-    path: invenotry.d/second_group.yaml
+    filepath: invenotry.d/second_group.yaml
 ```
 
 ```yaml
@@ -58,7 +58,7 @@ targets:
 config:
   ssh:
     _plugin: yaml
-    path: ~/.my_bolt_credentials.yaml
+    filepath: ~/.my_bolt_credentials.yaml
 ```
 
 ```yaml
