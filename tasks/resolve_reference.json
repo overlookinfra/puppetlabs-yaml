@@ -2,7 +2,7 @@
   "description": "Read YAML data from a file",
   "input_method": "stdin",
   "parameters": {
-    "path": {
+    "filepath": {
       "type": "String",
       "description": "The path to the YAML file"
     }
