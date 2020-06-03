@@ -26,7 +26,7 @@ groups:
   - _plugin: yaml
     filepath: inventory.d/first_group.yaml
   - _plugin: yaml
-    filepath: invenotry.d/second_group.yaml
+    filepath: inventory.d/second_group.yaml
 ```
 
 ```yaml
